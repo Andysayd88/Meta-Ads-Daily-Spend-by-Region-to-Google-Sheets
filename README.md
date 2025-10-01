@@ -28,3 +28,17 @@ This script requires only works if you have a [Meta App created through Facebook
 Access the Script trigger in the script area on the left hand menu. Below is the screenshot of how the trigger.
 
 <img src="trigger-google-script.jpg" alt="Trigger Google Script Example" width="50%">
+
+
+## Intended Use
+This Meta Ads / Google Sheet script is a simple tool to track region-level spend on a daily basis.
+It is great for those importing daily spends from multiple ad platforms into a single Google Sheet.
+This is ideal for teams working with multiple Meta Ads accounts whether in an agency or in-house.
+
+## Author
+[Sam Lalonde](https://www.linkedin.com/in/samlalonde/)  
+---
+
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+Free to use, modify, and distribute.
