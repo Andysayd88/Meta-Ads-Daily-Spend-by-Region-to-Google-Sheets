@@ -22,3 +22,9 @@ This script requires only works if you have a [Meta App created through Facebook
 5) Entry point: runDailyRegionSpend()
    - Use Triggers → Add Trigger → Head: runDailyRegionSpend → Time‑driven (e.g., daily).
 6) Authorize and run once to create headers; verify the tab shows upserts (no dupes).
+
+**You do not need to deploy the script - just make sure the trigger is set properly**
+
+Access the Script trigger in the script area on the left hand menu. Below is the screenshot of how the trigger.
+
+<img src="trigger-google-script.jpg" alt="Trigger Google Script Example" width="50%">
